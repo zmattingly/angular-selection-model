@@ -15,7 +15,8 @@ angular.module('selectionModel').provider('selectionModelOptions', [function() {
     selectedClass: 'selected',
     type: 'basic',
     mode: 'single',
-    cleanupStrategy: 'none'
+    cleanupStrategy: 'none',
+    useKeyboardNavigation: false
   };
 
   this.set = function(userOpts) {
