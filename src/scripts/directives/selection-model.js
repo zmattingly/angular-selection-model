@@ -231,7 +231,7 @@ angular.module('selectionModel').directive('selectionModel', [
 
           lastItem = lastItem || smItem;
 
-          angular.forEach(getAllVisibleItems(), function(item) {
+          angular.forEach(allItems, function(item) {
             foundThisItem = foundThisItem || item === smItem;
             foundLastItem = foundLastItem || item === lastItem;
             var inRange = (foundLastItem + foundThisItem) === 1;
