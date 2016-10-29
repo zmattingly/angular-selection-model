@@ -31,7 +31,7 @@ angular.module('selectionModel').directive('selectionModel', [
          * The selection model type
          *
          * Controls how selections are presented on the underlying element. Use
-         * 'basic' (the default) to simplye assign a "selected" class to
+         * 'basic' (the default) to simply assign a "selected" class to
          * selected items. If set to 'checkbox' it'll also sync the checked
          * state of the first checkbox child in each underlying `tr` or `li`
          * element.
@@ -247,7 +247,7 @@ angular.module('selectionModel').directive('selectionModel', [
          * Use the `ctrl` key to select/deselect while preserving the rest of
          * your selection. Note your your selection mode must be set to
          * `'multiple'` to allow for more than one selected item at a time. In
-         * single select mode you still must use the `ctrl` or `shitft` keys to
+         * single select mode you still must use the `ctrl` or `shift` keys to
          * deselect an item.
          *
          * The `shift` key allows you to select ranges of items at a time. Use
